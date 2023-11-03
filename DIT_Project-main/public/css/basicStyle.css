@@ -1,0 +1,160 @@
+.footer-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    z-index: 9999;
+    /* margin-bottom: 2px; */
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position:absolute;
+    z-index:auto ;
+    top: 75;
+    left: 0;
+    background-color: rgb(154, 151, 151);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0e0d0d;
+    display: flex;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #1863dd;
+}
+
+.sidenav .closebtn {
+    position:fixed;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.student-info {
+    position: absolute;
+    top: 0;
+    right:0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.student-info img {
+    position: absolute;
+    top: -131px;
+    right:-5px;
+    left:100;
+    width: 120px;
+    height: 129px;
+    border-radius: 0%;
+    margin-right: 5px;
+}
+
+
+.student-info .student-text {
+    font-size: 18px;
+    color: white;
+    width: 400px;
+    right:0;
+}
+#student-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    right: 0;
+    position: absolute;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px; /* Height of the footer */
+  }
+
+  /* formStyle.css */
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    background-color: #c2f4db;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+
+  .form-container label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+    text-align: left;
+  }
+
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #645e58;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-container .forgot-password {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+    .form-container .password-requirements {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: small;
+        color: red;
+    }
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
